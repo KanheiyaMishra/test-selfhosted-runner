@@ -3,6 +3,7 @@ name: Manual WSL Runner Test
 # This enables the manual trigger button
 on: 
   workflow_dispatch:
+  push: 
 
 jobs:
   check-wsl-environment:
